@@ -1,0 +1,198 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* RESET */
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/foto-portaria.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.corpo::after {
+    content: '';
+    background-color: rgb(10, 23, 49);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.padrao {
+    background-color: #283688;
+    opacity: 0.8;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.menu .logo img {
+    width: 85%;
+}
+
+.menu h1 {
+    color: #f5f5f5;
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.menu h2 {
+    color: #f5f5f5;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.servicos img {
+    width: 100px;
+}
+
+.serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #5CACD1;
+    border-radius: 30%;
+    text-align: center;
+    padding: 20px;
+    color: #283688;
+    background-color: #f5f5f5;
+    min-width: 35vh;
+    min-height: 35vh;
+    margin: 1%;
+}
+
+.ajusteD {
+    margin-right: 15%;
+}
+
+.ajusteE {
+    margin-left: 15%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    font-size: 1.5rem;
+    color: #f5f5f5;
+}
+
+.footer .logo img {
+    width: 85%;
+}
+
+.github {
+    color: #e5e8e8;
+    text-decoration: none;
+}
+
+.github:hover {
+    color: aqua;
+}
+
+.footer-github {
+    background-color: #2B387C;
+    text-align: center;
+    font-weight: 900;
+    padding: 5px;
+
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+/* pop up container*/
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* o pop up */
+.popup .popuptext {
+    visibility: hidden;
+    position: absolute;
+    border: 5px solid #5CACD1;
+    border-radius: 30%;
+    padding: 30px;
+    color: #283688;
+    background-color: #f5f5f5;
+    min-width: 35vh;
+    min-height: 35vh;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -26vh;
+    margin-left: -17.5vh;
+}
+
+/* setinha pop up */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #283688 transparent transparent transparent;
+}
+
+/* animação de transição */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}

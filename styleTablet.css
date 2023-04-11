@@ -1,0 +1,168 @@
+@media (min-width:700px) and (max-width:1020px) and (orientation: portrait) {
+    .corpo {
+        overflow: hidden;
+        height: auto;
+        width: auto;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+
+    .menu h1 {
+        font-size: 3.5rem;
+        margin-bottom: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .menu h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .menu .logo img {
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    .info{
+        margin: 2% 3%;
+    }
+
+    .servicos {
+        align-items: center;
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1% -5%;
+    }
+
+    .servicos img {
+        width: 80px;
+    }
+
+    .serv {
+        border: 2px solid #5CACD1;
+        text-align: center;
+        min-width: 22vh;
+        max-width: 22vh;
+        min-height: 22vh;
+        margin: 1%;
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+
+    .popup{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .footer {
+        height: 15vh;
+        font-size: 1.9rem;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .footer .logo img {
+        margin: 1%;
+    }
+
+    /* o pop up */
+    .popup .popuptext {
+        visibility: hidden;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:1020px) and (orientation: landscape) {
+    .corpo {
+        overflow: hidden;
+        height: auto;
+        width: auto;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+
+    .menu h1 {
+        font-size: 3.5rem;
+        margin-bottom: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .menu h2 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .menu .logo img {
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    .info{
+        margin: 2% 3%;
+    }
+
+    .servicos {
+        align-items: center;
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1% -5%;
+    }
+
+    .servicos img {
+        width: 80px;
+    }
+
+    .serv {
+        border: 2px solid #5CACD1;
+        text-align: center;
+        min-width: 22vh;
+        max-width: 22vh;
+        min-height: 22vh;
+        margin: 1%;
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+
+    .popup{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .footer {
+        height: 15vh;
+        font-size: 1.5rem;
+        margin-top: 4%;
+        text-align: center;
+    }
+    
+    .footer .logo img {
+        margin: 1%;
+        width: 100%;
+    }
+
+    /* o pop up */
+    .popup .popuptext {
+        visibility: hidden;
+    }
+
+}
