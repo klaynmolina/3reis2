@@ -88,6 +88,7 @@ img {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    padding: 50px 100px;
 }
 
 .servicos img {
@@ -110,20 +111,12 @@ img {
     margin: 1%;
 }
 
-.ajusteD {
-    margin-right: 15%;
-}
-
-.ajusteE {
-    margin-left: 15%;
-}
-
 .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 20vh;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #f5f5f5;
 }
 
@@ -132,7 +125,7 @@ img {
 }
 
 .github {
-    color: #e5e8e8;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
@@ -141,14 +134,14 @@ img {
 }
 
 .footer-github {
-    background-color: #2B387C;
     text-align: center;
     font-weight: 900;
-    padding: 5px;
-
-    bottom: 0;
+    padding: 25px 10px;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    background-color: #283688;
+    opacity: 0.8;
+    z-index: 1;
 }
 
 /* pop up container*/

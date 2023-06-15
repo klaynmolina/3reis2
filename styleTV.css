@@ -1,0 +1,17 @@
+@media (min-width:1600px) and (max-width:1200px) and (orientation: portrait) {
+
+    .corpo {
+        background-color: rgb(17, 21, 20);
+    }
+
+    .serv {
+        min-width: 12vh;
+        max-width: 12vh;
+        min-height: 12vh;
+        margin-top: 25%;
+
+    }
+
+}
+
+@media (min-width:700px) and (max-width:1020px) and (orientation: landscape) {}
