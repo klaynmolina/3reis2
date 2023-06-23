@@ -34,6 +34,7 @@ img {
     background-image: url(img/foto-portaria.jpg);
     background-size: cover;
     width: 100%;
+    height: 100vh;
     color: white;
     position: relative;
     z-index: 0;
@@ -82,17 +83,22 @@ img {
     text-align: center;
 }
 
+.info {
+    text-align: center;
+    margin-left: 5%;
+}
+
 .servicos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    padding: 50px 100px;
+    margin-left: 10%;
 }
 
 .servicos img {
-    width: 100px;
+    width: 70px;
 }
 
 .serv {
@@ -106,42 +112,76 @@ img {
     padding: 20px;
     color: #283688;
     background-color: #f5f5f5;
-    min-width: 35vh;
-    min-height: 35vh;
-    margin: 1%;
+    min-width: 20vh;
+    min-height: 20vh;
+    max-width: 20vh;
+    max-height: 20vh;
+    margin: 40px;
+}
+
+.servicos a {
+    color: #283688;
+    min-width: 130%;
+    border-radius: 30%;
 }
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 20vh;
-    font-size: 2rem;
+    flex-direction: column;
+    height: 25vh;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    line-height: 2;
+    overflow: hidden;
+}
+
+.footer h2 {
+    margin-top: 1%;
+}
+
+.footer h6 {
+    font-size: 1rem;
+}
+
+.footer a {
     color: #f5f5f5;
 }
 
-.footer .logo img {
-    width: 85%;
+.logo-footer {
+    display: flex;
+    width: 150%;
+    background-color: rebeccapurple;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.logo-link {
+    position: absolute;
+    left: 55px;
+    bottom: 10px;
+}
+
+.loc {
+    position: absolute;
+    right: 55px;
+    bottom: 10px;
+}
+
+.logo-link, .loc img {
+    width: 55px;
 }
 
 .github {
     color: #f5f5f5;
     text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1%;
 }
 
 .github:hover {
     color: aqua;
-}
-
-.footer-github {
-    text-align: center;
-    font-weight: 900;
-    padding: 25px 10px;
-    width: 100%;
-    font-size: 2rem;
-    background-color: #283688;
-    opacity: 0.8;
-    z-index: 1;
 }
 
 /* pop up container*/
@@ -157,18 +197,17 @@ img {
     position: absolute;
     border: 5px solid #5CACD1;
     border-radius: 30%;
-    padding: 30px;
     color: #283688;
     background-color: #f5f5f5;
-    min-width: 35vh;
-    min-height: 35vh;
-    font-size: 2rem;
+    min-width: 20vh;
+    min-height: 20vh;
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: -26vh;
-    margin-left: -17.5vh;
+    margin-top: -17vh;
+    margin-left: -9.8vh;
 }
 
 /* setinha pop up */

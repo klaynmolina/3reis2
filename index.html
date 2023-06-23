@@ -1,93 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Molina">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="KlaynMolina">
 
-    <meta name="keywords" content="Condomínio, Condomínio Três Reis Dois, Condomínio 3 reis 2, Condomínio Três reis 2, Condomínio 3 reis Dois">
-    
-    <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleSmartphone.css">
-    <link rel="stylesheet" href="styleTablet.css">
-    <link rel="stylesheet" href="styleTV.css">
-    <script src="script.js" defer></script>
+        <meta name="keywords"
+            content="Condomínio, Condomínio Três Reis Dois, Condomínio 3 reis 2, Condomínio Três reis 2, Condomínio 3 reis Dois">
 
-    <title>Três Reis 2</title>
-</head>
-<body>
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleSmartphone.css">
+        <link rel="stylesheet" href="styleTablet.css">
+        <link rel="stylesheet" href="styleTV.css">
+        <script src="script.js" defer></script>
 
-    <div class="corpo" id="corpo">        
-        <div class="padrao menu">  
-            <a class="logo" href="index.html"><img src="img/logo.png"></a>
-            <div class="info">
-                <h1>Condomínio Residêncial Três Reis 2</h1>
-                <h2>Tel: (21) 99258-6348 | CNPJ: 03.684.336/0001-09</h2>
+        <title>Três Reis 2</title>
+    </head>
+    <body id="body">
+
+        <div class="corpo" id="corpo">
+            <div class="padrao menu">
+                <a class="logo" href="index.html"><img src="img/logo.png"></a>
+                <div class="info">
+                    <h2>Condomínio Residêncial</h2>
+                    <h1>3 Reis 2</h1>
+                </div>
             </div>
+
+            <div class="servicos">
+                <div class="serv" onclick="popUp()">
+                    <a href="tel:992586348">
+                        <img src="img/telefone.png" alt="telefone">
+                        <h2>Portaria</h2>
+                    </a>
+                        <div class="popup">
+                            <h1 class="popuptext" id="myPopup">(21) 99258-6348</h1>
+                        </div>
+                </div>
+
+                <div class="serv">
+                    <a href="https://wa.me/5521992586348">
+                        <img
+                            src="img/whatsapp.png" alt="whatsapp">
+                        <h2>Whatsapp</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a href="http://webmail.3reis2.com.br/">
+                        <img
+                            src="img/webmail.png" alt="web-email">
+                        <h2>WebMail</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a
+                        href="https://souzaadmin.superlogica.net/clients/areadocondomino">
+                        <img
+                            src="img/2-via-boleto.png" alt="boleto">
+                        <h2>Boleto</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a href="https://sim.marica.rj.gov.br/iptu">
+                        <img src="img/iptu.png" alt="iptu">
+                        <h2>IPTU</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a
+                        href="https://www.meucondominio.com.br/residencial-3-reis-2/Home/Deslogado?ReturnUrl=%2Fresidencial-3-reis-2"><img
+                            src="img/area-restrita.png" alt="area-restrita">
+                        <h2>Área Restrita</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a href="https://www.ilarme.com.br/morador/login.aspx">
+                        <img src="img/portaria-remota.png" alt="portaria-remota">
+                        <h2>Portaria Remota</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a href="http://souzaadministradora.com.br/"><img
+                            src="img/administradora.png" alt="administradora">
+                        <h2>Admin</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a href="https://eduardocarlos.adv.br/">
+                        <img
+                            src="img/juridico.png" alt="juridico">
+                        <h2>Jurídico</h2>
+                    </a>
+                </div>
+
+                <div class="serv">
+                    <a
+                        href="https://www.google.com/maps/place/CONDOMINIO+TR%C3%8AS+REIS+2/@-22.893507,-42.8204199,15z/data=!4m2!3m1!1s0x0:0xfd392f240e77593b?sa=X&ved=2ahUKEwjlx82iqMX7AhU1qpUCHRixDnIQ_BJ6BAg2EAg"><img
+                            src="img/localizacao.png" alt="como-chegar">
+                        <h2>Como Chegar</h2>
+                    </a>
+                </div>
+            </div>
+
+            <footer class="padrao footer">
+                <h2 class="footer-info">Estrada Fazenda do Rio Fundo, s/n
+                    Maricá/RJ - Brasil, 24901100.</h2>
+                <h3><a href="tel:992586348">Tel: (21) 99258-6348</a></h3>
+                <h6 class="footer-info">CNPJ: 03.684.336/0001-09</h6>
+
+                <div class="logo-footer">
+                    <a class="loc footer-info"
+                        href="https://www.google.com/maps/place/CONDOMINIO+TR%C3%8AS+REIS+2/@-22.893507,-42.8204199,15z/data=!4m2!3m1!1s0x0:0xfd392f240e77593b?sa=X&ved=2ahUKEwjlx82iqMX7AhU1qpUCHRixDnIQ_BJ6BAg2EAg"><img
+                            src="img/localizacao.png"></a>
+                    <a class="logo-link footer-info" href="index.html"><img
+                            src="img/logo.png"></a>
+                </div>
+
+                <a class="github" href="https://www.klaynmolina.com.br">©
+                    Developed by KlaynMolina</a>
+            </footer>
         </div>
-        
-        <div class="servicos">
-            <div class="serv ajusteE" onclick="popUp()">
-                <a href="tel:992586348"><img src="img/telefone.png" alt=""></a>    
-                <h2>Celular Portaria</h2>
-                <div class="popup">
-                    <h1 class="popuptext" id="myPopup">Tel: (21) 99258-6348</h1>
-                </div>     
-            </div>
 
-            <div class="serv">
-                <a href="https://wa.me/5521992586348"><img src="img/whatsapp.png" alt=""></a>                
-                <h2>Whatsapp Portaria</h2>
-            </div>
-            
-            <div class="serv">
-                <a href="http://webmail.3reis2.com.br/"><img src="img/webmail.png" alt=""></a>                
-                <h2>WebMail</h2>
-            </div>           
-        
-            <div class="serv">
-                <a href="https://souzaadmin.superlogica.net/clients/areadocondomino"><img src="img/2-via-boleto.png" alt=""></a>
-                <h2>Segunda Via Boleto</h2>
-            </div>
-
-            <div class="serv">
-                <a href="https://sim.marica.rj.gov.br/iptu"><img src="img/iptu.png" alt=""></a>                
-                <h2>Emissão de IPTU</h2>
-            </div>
-
-            <div class="serv">
-                <a href="https://www.meucondominio.com.br/residencial-3-reis-2/Home/Deslogado?ReturnUrl=%2Fresidencial-3-reis-2"><img src="img/area-restrita.png" alt=""></a>                
-                <h2>Área Restrita</h2>
-            </div>
-        
-            <div class="serv">
-                <a href="https://www.ilarme.com.br/morador/login.aspx"><img src="img/portaria-remota.png" alt=""></a>                
-                <h2>Portaria Remota</h2>
-            </div>
-
-            <div class="serv">
-                <a href="http://souzaadministradora.com.br/"><img src="img/administradora.png" alt=""></a>                
-                <h2>Administradora</h2>
-            </div>       
-
-            <div class="serv">
-                <a href="https://eduardocarlos.adv.br/"><img src="img/juridico.png" alt=""></a>                
-                <h2>Jurídico</h2>
-            </div>
-        </div>
-             
-        <div class="padrao footer">
-            <a class="logo" href="index.html"><img src="img/logo.png"></a>
-            <h2>Endereço: Estrada Fazenda do Rio Fundo, S/n Maricá - RJ, 24901100 - Brasil</h2>
-            <a class="logo" href="https://www.google.com/maps/place/CONDOMINIO+TR%C3%8AS+REIS+2/@-22.893507,-42.8204199,15z/data=!4m2!3m1!1s0x0:0xfd392f240e77593b?sa=X&ved=2ahUKEwjlx82iqMX7AhU1qpUCHRixDnIQ_BJ6BAg2EAg"><img src="img/localizacao.png"></a>
-        </div>
-        <footer class="footer-github">
-            <a class="github" href="https://www.klaynmolina.com.br">@Developed by Molina</a>
-        </footer>
-    </div>
-    
-</body>
+    </body>
 </html>
