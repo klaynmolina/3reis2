@@ -54,51 +54,56 @@ img {
 
 .padrao {
     background-color: #283688;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
 }
 
 .menu .logo img {
-    width: 85%;
+    width: 75%;
 }
 
 .menu h1 {
     color: #f5f5f5;
-    font-size: 3rem;
-    margin-bottom: 0;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 .menu h2 {
     color: #f5f5f5;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-top: 2%;
     text-align: center;
 }
 
+.logo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 .info {
     text-align: center;
-    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .servicos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 1.5rem;
-    margin-left: 10%;
+    align-self: center;
+    font-size: 1rem;
+    width: 60%;
 }
 
 .servicos img {
-    width: 70px;
+    width: 45px;
 }
 
 .serv {
@@ -106,17 +111,17 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 5px solid #5CACD1;
+    border: 2px solid #5CACD1;
     border-radius: 30%;
     text-align: center;
-    padding: 20px;
+    padding: 6% !important;
     color: #283688;
     background-color: #f5f5f5;
-    min-width: 20vh;
-    min-height: 20vh;
-    max-width: 20vh;
-    max-height: 20vh;
-    margin: 40px;
+    min-width: 15vh;
+    min-height: 15vh;
+    max-width: 15vh;
+    max-height: 15vh;
+    margin: 5% 5% 5% 0%;
 }
 
 .servicos a {
@@ -130,11 +135,10 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 25vh;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #f5f5f5;
-    line-height: 2;
-    overflow: hidden;
+    line-height: 1.3;
+    margin-top: auto;
 }
 
 .footer h2 {
@@ -159,13 +163,13 @@ img {
 
 .logo-link {
     position: absolute;
-    left: 55px;
+    left: 100px;
     bottom: 10px;
 }
 
 .loc {
     position: absolute;
-    right: 55px;
+    right: 100px;
     bottom: 10px;
 }
 
@@ -177,6 +181,7 @@ img {
     color: #f5f5f5;
     text-decoration: none;
     font-size: 1rem;
+    margin-top: 1%;
     margin-bottom: 1%;
 }
 
@@ -195,19 +200,19 @@ img {
 .popup .popuptext {
     visibility: hidden;
     position: absolute;
-    border: 5px solid #5CACD1;
+    border: 2px solid #5CACD1;
     border-radius: 30%;
     color: #283688;
     background-color: #f5f5f5;
-    min-width: 20vh;
-    min-height: 20vh;
+    min-width: 16vh;
+    min-height: 16vh;
     font-size: 1.3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: -17vh;
-    margin-left: -9.8vh;
+    margin-top: -12.5vh;
+    margin-left: -8.2vh;
 }
 
 /* setinha pop up */

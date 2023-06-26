@@ -40,6 +40,7 @@
         font-size: 1.5rem;
         flex-wrap: wrap;
         padding: 25px;
+        width: 90%;
     }
 
     .servicos img {
@@ -53,7 +54,7 @@
         min-height: 15vh;
         max-height: 15vh;
         margin: 1%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-top: 5%;
         padding: 10px;
         border: 3px solid #5CACD1;
